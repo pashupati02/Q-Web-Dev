@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 600px;
+    width: 400px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px auto;
+    display: grid;
+    border-radius: 20px;
+    background-color: pink;
+    grid-template-areas: "con1 con1 con1 con1"
+                        "con1 con1 con1 con1"
+                        "con2 con3 con4 con5"
+                        "con6 con7 con8 con9"
+                        "con10 con11 con12 con13"
+                        "con10 con11 con12 con13"
+                        "con14 con15 con16 con17"
+                        "con14 con15 con16 con17"
+                        "con18 con19 con20 con21"
+                        "con18 con19 con20 con21"
+                        "con22 con22 con23 con21"
+                        "con22 con22 con23 con21"
+                        ;
+                        gap:15px;
+}
+.con1{
+    grid-area:con1;
+    background-color: rgb(45, 42, 42);
+    justify-content: flex-end;
+    align-items:end;
+    font-size: xx-large;
+}
+.con2{
+    grid-area:con2;
+}
+.con3{
+    grid-area:con3;
+}
+.con4{
+    grid-area:con4;
+}
+.con5{
+    grid-area:con5;
+}
+.con6{
+    grid-area:con6;
+}
+.con7{
+    grid-area:con7;
+}
+.con8{
+    grid-area:con8;
+}
+.con9{
+    grid-area:con9;
+}
+.con10{
+    grid-area:con10;
+}
+.con11{
+    grid-area:con11;
+}
+.con12{
+    grid-area:con12;
+}
+.con13{
+    grid-area:con13;
+}
+.con14{
+    grid-area:con14;
+}
+.con15{
+    grid-area:con15;
+}
+.con16{
+    grid-area:con16;
+}
+.con17{
+    grid-area:con17;
+}
+.con18{
+    grid-area:con18;
+}
+.con19{
+    grid-area:con19;
+}
+.con20{
+    grid-area:con20;
+}
+.con21{
+    grid-area:con21;
+}
+.con22{
+    grid-area:con22;
+}
+.con23{
+    grid-area:con23;
+}
+
+section div{
+    border: 2px solid whitesmoke;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 3px 5px;
+    align-items: center;
+    font-weight: 900;
+    font-size: larger;
+    
+    
+
+}
+.con1,.con2,.con3,.con4,.con5,.con6,.con7,.con8{
+    border-radius: 20px;
+}

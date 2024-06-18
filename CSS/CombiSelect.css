@@ -1,0 +1,29 @@
+/* Descent sibling selectors */
+article div h1{
+    color: blue;
+    /* Empty space is the symbol of descendent symbol */
+}
+
+article section h1{
+    color: cadetblue;
+} 
+
+/* In child selector dont use ancenter taking reference of parent only and 
+symbol > */
+/* Child selector */
+section > h1 {
+    color: rgb(65, 44, 12);
+}
+
+div > h1{
+    color: chocolate;
+}
+
+/* adjacent sibling reference */
+h1+h2{
+    color: rgb(244, 240, 240);
+}
+/* Genral Sibling selector */
+h1~h2~h3 {
+    color: brown;
+}

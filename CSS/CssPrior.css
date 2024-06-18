@@ -1,0 +1,18 @@
+
+
+/* #head1{
+    color: blueviolet;
+}
+.head2{
+    color: chartreuse !important;
+}
+h1{
+    color: aquamarine;
+} */
+
+/* first priority div > class > tag >universal */
+/* Attribut selector */
+h1[id="head3"]
+{
+    color: cornflowerblue;
+}

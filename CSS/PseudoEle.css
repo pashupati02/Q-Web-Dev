@@ -1,0 +1,13 @@
+p::first-line{
+    color: brown;
+}
+p::first-letter{
+    color: burlywood;
+    text-shadow: 34px;
+}
+p::before{
+    content: "❤️";
+}
+p::after{
+    content: "🤷‍♂️";
+}

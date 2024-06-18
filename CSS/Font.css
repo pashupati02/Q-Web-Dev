@@ -1,0 +1,36 @@
+p {
+    font-size: medium;
+    font-weight: bold;
+    font-weight: bolder;
+    font-style: italic;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+}
+
+article{
+    /* Creating container:  */
+    height: 200px;
+    width: 300px;
+    border: 1px solid;
+    
+
+    box-shadow: 19px 32px 60px orange  ,inset 23px 34px 60px rgb(16, 10, 1);
+    
+    /* want shadow inside the container use insert  */
+}
+
+#vis{
+    visibility: hidden;
+    display: none;
+} 

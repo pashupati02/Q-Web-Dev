@@ -1,0 +1,17 @@
+/* This css use to avoid default style */
+/* This is mandatory for any web pages while using any project */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    color: brown;
+    text-align: center;
+    background-color: aqua;
+}

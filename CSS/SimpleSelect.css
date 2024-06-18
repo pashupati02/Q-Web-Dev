@@ -1,0 +1,35 @@
+*{
+    /* we have to use only one universal selector and it should be first ; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: blueviolet;
+background-color: #fdfbfb;
+}
+#H1
+{ 
+    color: chartreuse;
+    background-color: #000;
+}
+#H2{
+    color: chocolate;
+    background-color: #000;
+}
+.target{
+    color: rgb(144, 14, 205);
+    background-color: cornsilk;
+}
+h1{
+color: aqua;
+}
+p{
+color: black;
+}
+h1,p,span{
+    
+    /* we can create of group of anything */
+    color: brown;
+}
+/* #H1,p,span{
+    color: antiquewhite;
+} */

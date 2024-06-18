@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    flex-direction:column-reverse; 
+    align-items: center;
+    
+    align-content: space-evenly;
+
+}
+
+.mainContainer sec{
+    height: 110px;
+    width: 110px;
+    border: 1px solid;
+}
